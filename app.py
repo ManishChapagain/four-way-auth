@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = 'your secret key'
 
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Manish123.'
+app.config['MYSQL_PASSWORD'] = '*******'
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_DB'] = 'three_way_auth'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
@@ -22,7 +22,7 @@ mysql = MySQL(app)
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'mailforproject333@gmail.com'
-app.config['MAIL_PASSWORD'] = 'mailforproject'
+app.config['MAIL_PASSWORD'] = '*********'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
